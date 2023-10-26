@@ -76,7 +76,7 @@ Step #12:Install AWS CLI on Ubuntu:
   (1)You can go to the official site of AWS and Install
 
 Step #13:Push Docker image to AWS ECR using Jenkins pipeline
-
+```
    pipeline {
     agent any
     environment {
@@ -124,3 +124,4 @@ Step #13:Push Docker image to AWS ECR using Jenkins pipeline
       }
     }
 }
+```
